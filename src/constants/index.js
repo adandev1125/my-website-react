@@ -1,12 +1,10 @@
 import {
   angular,
   backend,
-  c,
   codeigniter,
   creator,
   go,
   graphql,
-  java,
   javascript,
   mobile,
   mongodb,

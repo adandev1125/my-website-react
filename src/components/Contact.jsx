@@ -2,11 +2,11 @@ import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 
+import { myEmail } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 import { EarthCanvas } from "./canvas";
-import { myEmail } from "../constants";
 
 const Contact = () => {
   const formRef = useRef();

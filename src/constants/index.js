@@ -1,23 +1,30 @@
 import {
+  angular,
   backend,
+  c,
+  codeigniter,
   creator,
-  css,
-  docker,
-  figma,
-  git,
-  html,
+  go,
+  graphql,
+  java,
   javascript,
   mobile,
   mongodb,
+  nextjs,
   nodejs,
+  oracle,
+  php,
   portfolio1,
   portfolio2,
   portfolio3,
+  portfolio4,
+  portfolio5,
+  portfolio6,
+  portfolio8,
   reactjs,
-  redux,
   shadoworks,
+  springboot,
   tailwind,
-  threejs,
   typescript,
   web,
   wepie
@@ -59,12 +66,8 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
+    name: "go",
+    icon: go,
   },
   {
     name: "JavaScript",
@@ -75,69 +78,65 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "Node.js",
+    icon: nodejs,
+  },
+  {
+    name: "React",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Spring Boot",
+    icon: springboot,
+  },
+  {
+    name: "Next.js",
+    icon: nextjs,
+  },
+  {
+    name: "CodeIgniter",
+    icon: codeigniter,
+  },
+  {
+    name: "GraphQL",
+    icon: graphql,
+  },
+  {
+    name: "Oracle",
+    icon: oracle,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "Full Stack Engineer - React Native (Remote)",
+    title: "Senior Full Stack Engineer (Remote)",
     company_name: "Shadoworks",
     icon: shadoworks,
     iconBg: "#E6DEDD",
-    date: "Mar 2021 - Jan 2023",
+    date: "Oct 2019 - Jan 2023",
     points: [
-      "Developed and managed a large - scale mobile app using React Native.",
-      "Developed an extensive admin panel using Next.js.",
-      "Developed and implemented a new technique that leveraged React hooks and memos.",
-      "Designed and developed multiple Android native modules and React Native components.",
-      "Designed and implemented a state-of-the-art Node.js backend for instant messaging."
-    ],
-  },
-  {
-    title: "Full Stack Engineer - Web Games (Remote)",
-    company_name: "Shadoworks",
-    icon: shadoworks,
-    iconBg: "#E6DEDD",
-    date: "Dec 2019 - Jan 2021",
-    points: [
-      "Utilized Phaser 3 and Pixi.js to design and develop 6 engaging web - based multiplayer games for an online gaming company.",
-      "Established a real - time multiplayer game backend utilizing Node.js and Socket.IO.",
-      "Created a custom, user - friendly game lobby and leaderboard utilizing Bootstrap and Angular, and updated it with React.",
-      "Conducted targeted training for 5+ web developers, imparting expertise in Phaser 3 and Pixi.js"
+      "Worked with a team of developers to build full-stack web and mobile apps using React, Angular, Node.js, Golang and Spring Boot.",
+      "Created web and mobile apps on time ,fully satisfied customers need and provided extensive service for maintenance.",
+      "Established backends for web apps utilizing Node.js, Golang and Spring Boot that need complicated business logics. Worked with Oracle 11g, MySQL and MongoDB for database.",
+      "Implemented the pixel-perfect and highly responsive layout of Figma design using React / Angular / TailwindCSS / TypeScript.",
+      "Built serverless workflow for web and mobile apps with AWS and S3.",
+      "Proactively solved problems in front end and back end business logics."
     ],
   },
   {
@@ -147,10 +146,13 @@ const experiences = [
     iconBg: "#383E56",
     date: "Feb 2017 - Aug 2019",
     points: [
-      "Developed and maintained a company's web application using React, Redux, and other front-end technologies.",
-      "Transformed design mockups into responsive user interfaces.",
-      "Improved code quality and maintainability by implementing unit testing using Jest and Enzyme.",
-      "Provided comprehensive tests for all React components and implemented continuous integration and deployment."
+      "Implemented customer needs with productive code quality and proactive attitude.",
+      "Integrated multiple third party APIs and RESTful APIs with front ends.",
+      "Collaborated with team members to analyze, design, build and test the software product.",
+      "Brought a pixel-perfect and user-friendly front ends with React, MaterialUI and AntD.",
+      "Optimized websites for search engine optimization.",
+      "Stay up-to-date with emerging front end technologies and best practices.",
+      "Provided unit tests, integrated tests and end-to-end tests with Enzyme, Jest and Selenium."
     ],
   },
 ];
@@ -228,6 +230,58 @@ const projects = [
     ],
     image: portfolio3,
     link: "https://imaginaryones.com",
+  },
+  {
+    tags: [
+      {
+        name: "golang",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mvc-framework",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio4,
+    link: "https://github.com/adandev1125/go-mvc",
+  },
+  {
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio5,
+    link: "https://github.com/adandev1125/next-ecommerce2",
+  },
+  {
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio6,
+    link: "https://github.com/adandev1125/tip-calc",
+  },
+  {
+    tags: [
+      {
+        name: "three.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: portfolio8,
+    link: "https://github.com/adandev1125/threejs_cars_gallery",
   },
 ];
 

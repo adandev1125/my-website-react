@@ -47,12 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a Full Stack React Engineer who loves software design, programming,
-        algorithms and UI/UX. I like developing mobile and web apps, creating
-        games, reviewing and optimizing codes and creating and establishing new
-        algorithms and databases. I Enjoy learning new skills and technologies,
-        love to work in teams and wish to gain professional experiences in the
-        real industry.
+        Dedicated Full Stack Engineer with 6 years of experience in software
+        industry.
+        <br />
+        Build meaningful web and mobile products with the latest technologies.
+        <br />
+        Full Stack web and mobile development with:
+        <br />
+        React / Angular / Flutter / Golang / Node.js / Spring Boot / PHP
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

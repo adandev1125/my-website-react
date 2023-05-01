@@ -123,33 +123,57 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Senior Full Stack Engineer (Remote)",
+    title: "Senior Full Stack Engineer",
     company_name: "Shadoworks",
     icon: shadoworks,
     iconBg: "#E6DEDD",
-    date: "Oct 2019 - Jan 2023",
+    date: "Mar 2020 - Jan 2023",
     points: [
-      "Worked with a team of developers to build full-stack web and mobile apps using React, Angular, Node.js, Golang and Spring Boot.",
-      "Created web and mobile apps on time ,fully satisfied customers need and provided extensive service for maintenance.",
-      "Established backends for web apps utilizing Node.js, Golang and Spring Boot that need complicated business logics. Worked with Oracle 11g, MySQL and MongoDB for database.",
+      "Worked with a team of developers to build web and mobile apps using React, Angular, Node.js and Golang.",
+      "Managed the front end part of a Ethereum-based dApp using React/Redux + Web3.",
+      "Designed and implemented several microservices for an e-commerce platform.",
       "Implemented the pixel-perfect and highly responsive layout of Figma design using React / Angular / TailwindCSS / TypeScript.",
+      "Built backends for e-commerce and educational web apps utilizing Nest.js and Golang that need complicated business workflows.",
+      "Implemented the pixel-perfect and highly responsive layout using React / TailwindCSS / TypeScript.",
       "Built serverless workflow for web and mobile apps with AWS and S3.",
-      "Proactively solved problems in front end and back end business logics."
+      "Proactively solved problems in front end and back end business logics.",
     ],
   },
   {
-    title: "Front End Developer - React (Remote)",
+    title: "Full Stack Developer",
     company_name: "Wepie Startup",
     icon: wepie,
     iconBg: "#383E56",
-    date: "Feb 2017 - Aug 2019",
+    date: "Apr 2018 - Aug 2019",
     points: [
+      "Developed an e-commerce and an investment platform using Laravel, React.js, and MySQL.",
+      "Implemented security measures such as 2FA and SSL encryption to protect user data.",
+      "Worked with cross-functional teams to integrate the platform with external systems such as trading platforms and banking systems.",
+      "Consulted regularly with customers on project status and technical details.",
+    ],
+  },
+  {
+    title: "Junior Full Stack Developer",
+    company_name: "Wepie Startup",
+    icon: wepie,
+    iconBg: "#383E56",
+    date: "Sep 2017 - Feb 2018",
+    points: [
+      "Created an e-commerce web site using technologies like React and Nest.js.",
+      "Integrated third-party APIs such as payment gateways and shipment tracking systems into the platform.",
+      "Conducted performance optimizations to improve page load times and overall user experience."
+    ],
+  },
+  {
+    title: "Front End Developer",
+    company_name: "Wepie Startup",
+    icon: wepie,
+    iconBg: "#383E56",
+    date: "Oct 2016 - Aug 2017",
+    points: [
+      "Brought a pixel-perfect and user-friendly front ends with React, MaterialUI and AntD and optimized websites for search engine optimization.",
       "Implemented customer needs with productive code quality and proactive attitude.",
-      "Integrated multiple third party APIs and RESTful APIs with front ends.",
       "Collaborated with team members to analyze, design, build and test the software product.",
-      "Brought a pixel-perfect and user-friendly front ends with React, MaterialUI and AntD.",
-      "Optimized websites for search engine optimization.",
-      "Stay up-to-date with emerging front end technologies and best practices.",
       "Provided unit tests, integrated tests and end-to-end tests with Enzyme, Jest and Selenium."
     ],
   },

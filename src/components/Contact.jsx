@@ -32,7 +32,7 @@ const Contact = () => {
         "template_f92yvwa",
         {
           form_name: form.name,
-          to_name: "Liron",
+          to_name: "Adan",
           from_email: form.email,
           to_email: myEmail,
           message: form.message,
@@ -75,16 +75,6 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
-          <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">To</span>
-            <input
-              type="text"
-              name="name"
-              value={myEmail}
-              readOnly={true}
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-          </label>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input

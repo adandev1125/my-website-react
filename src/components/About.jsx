@@ -47,14 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Dedicated Full Stack Engineer with 6 years of experience in software
-        industry.
+        Dedicated Full Stack Engineer full of experience in software industry.
         <br />
-        Build meaningful web and mobile products with the latest technologies.
+        Excellent coding and problem-solving skills with ability to work as a
+        Developer.
         <br />
-        Full Stack web and mobile development with:
+        Expertise in blockchain and cryptocurrency technologies.
         <br />
-        React / Angular / Flutter / Golang / Node.js / Spring Boot / PHP
+        Excellent communication skills and interpersonal skills, self-motivated,
+        hardworking individual and has strong abilities to work in a team.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

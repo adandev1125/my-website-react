@@ -52,7 +52,15 @@ const About = () => {
         Excellent coding and problem-solving skills with ability to work as a
         Developer.
         <br />
-        Expertise in blockchain and cryptocurrency technologies.
+        Developed a deep understanding of programming languages and software
+        architecture principles, and created large-scale, distributed systems
+        with them.
+        <br />
+        Skillful in general purpose programming languages including C/C++,
+        Golang, Java and Rust.
+        <br />
+        Strong experience in networking practices, distributed systems and
+        DevOps with CI/CD technologies and tools.
         <br />
         Excellent communication skills and interpersonal skills, self-motivated,
         hardworking individual and has strong abilities to work in a team.

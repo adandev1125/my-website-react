@@ -228,11 +228,11 @@ const projects = [
   {
     tags: [
       {
-        name: "react",
+        name: "three.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "react",
         color: "green-text-gradient",
       },
     ],
@@ -242,11 +242,7 @@ const projects = [
   {
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
+        name: "three.js",
         color: "pink-text-gradient",
       },
     ],
